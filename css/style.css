@@ -1,0 +1,173 @@
+html, body{ overflow-x: hidden; }
+
+#HL{ height: 600px;  background: #000; text-align: center;}
+#HL h3{ 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+    color: #dfa449; 
+    font-weight: bold; 
+    font-size: 40px; 
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    padding-top: 200px;
+    text-shadow: 2px 2px 5px #000;
+}
+#HL h4{ 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px #000;
+}
+#HL .btn_vl{ margin: 20px;}
+#HL .col_izq{padding: 10px 0px 0px 0px}
+#HL .col_der{padding: 65px 0px 0px 0px}
+#HL .col_der a{font-size: 30px; color: #000;}
+#HL .col_der a:hover{text-decoration: none}
+
+#HL #barra_encabezado{ margin-top: 130px; }
+
+#paquetes{
+    background: #000 url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.seccion{ background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png"); z-index: -999; border-top: 3px solid #89372a;}
+.seccion .portada{ text-align: center; color: #fff; text-transform: uppercase; padding: 50px;}
+.seccion .portada h2{font-family: 'Roboto', sans-serif; font-size: 20px; letter-spacing: 4px; line-height: 0px; text-shadow: 5px 5px 10px #000;} 
+.seccion .portada h1{font-family: 'Roboto', sans-serif; font-size: 50px; letter-spacing: 4px; text-shadow: 2px 2px 8px #000; font-weight: bold;} 
+.seccion .portada p{ color: #999;} 
+.seccion .btn_play{ text-align: center; margin: auto; }
+.seccion .contenido{ padding: 25px 0px; background: url(../images/sombra.png) top center no-repeat; }
+.seccion .contenido h3{ font-size: 22px; font-weight: normal;font-family: 'Roboto', sans-serif;padding: 10px 0px;color: #999; text-transform: uppercase; text-align: center; letter-spacing: 5px;}
+.seccion .contenido .descripcion{ font-size: 14px;background: #f1f1f1; border: 1px solid #ccc; padding: 10px; }
+.seccion .contenido .btn_info{ 
+    background:#dfa449; 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 15px; 
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 25px;
+    display: inline-block;
+}
+
+.seccion .contenido .adicionales{margin-top: 20px; font-family: 'Roboto', sans-serif; font-size: 14px;}
+.seccion .contenido .adicionales h3{font-family: 'Roboto', sans-serif; font-size: 15px;}
+.seccion .contenido .precio h1{ color: #999; font-size: 30px; padding: 20px 0px 20px 0px}
+
+#contacto{
+    padding: 25px 0px 0px 0px; 
+    background: #333 url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex-dark.png");
+}
+#contacto h1{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 50px; 
+    letter-spacing: 4px; 
+    font-weight: bold; 
+    color: #fff;
+    text-align: center;
+}
+#contacto p{ color: #fff; text-align: center;} 
+#contacto .container-fluid{ padding: 0px;}
+
+/* 
+///////////////////////// 
+*/
+
+#LasSycas .portada{ 
+    background: url(../images/portada_sycas.jpg) top center repeat-x;
+    height: 600px;
+}
+
+#LosCedros .portada{ 
+    background: url(../images/portada_cedros.jpg) top center repeat-x;
+    height: 600px;
+}
+
+#galeria_sycas ul{list-style: none; margin: 0px; padding: 0px;}
+#galeria_sycas ul li{padding: 1px; width: 30%; float: left;  display: block; }
+#map{ height: 600px;}
+
+#app_msg ul li{ display: inline; font-size: 20px}
+
+#contacto { text-align: center;}
+#contacto a{margin: 10px 0px 10px 0px;}
+
+.btn_rrss{
+    text-align: center;
+    padding: 15px;
+}
+
+#slogan{
+    padding: 20px;
+    background: #333 url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex-dark.png");
+}
+
+#slogan h1{
+    font-family: 'Roboto', sans-serif; 
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px; 
+    word-spacing: 2px;
+}
+
+#rrss_mobile a{
+    color: #fff;
+    font-size: 30px;
+}
+
+.creditos{
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 700px){
+    #HL h3{ font-size:20px;}
+    #HL h4{ font-size:17px;}
+    
+    #slogan h1{
+        font-family: 'Roboto', sans-serif; 
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        font-weight: lighter;
+        letter-spacing: 2px; 
+    }
+    
+    #LasSycas h1{font-size:40px;}
+    #LasSycas .precio h1{font-size: 30px;}
+    #LosCedros .precio h1{font-size: 30px;}
+    
+    #LosCedros h1{font-size:38px;}
+    #galeria_sycas ul{ padding-left: 5px; }
+    #galeria_sycas ul li{ padding: 1px; width: 33%; float: left;  display: block;}
+
+}
+
+@media screen and (min-width:600px) {
+    
+        #wp-ratedWA{
+            float: left;
+            position: absolute;
+            top: 10%;
+            left: 53%;    
+            margin-top: -75px;
+            /*margin-left: -75px;*/
+            z-index: 999;
+        }
+}
+
+#wp-ratedWA{
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 51%;    
+    margin-top: -75px;
+    margin-left: -75px;
+    z-index: 999;
+}
